@@ -345,12 +345,12 @@
 				</control>
 					
 				<!--video-->
-				<control type="videowindow">
+				<control type="image">
 					<left>60</left>
 					<top>342</top>
 					<width>260</width>
 					<height>170</height>
-					<visible>Player.HasVideo</visible>
+					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
 				</control>
 			
 				<!--title-->
